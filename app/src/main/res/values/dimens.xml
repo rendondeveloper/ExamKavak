@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="separation_width_data">10dp</dimen>
+    <dimen name="size_text">16sp</dimen>
+    <dimen name="size_space_card">6dp</dimen>
+    <dimen name="size_text_info_user">18sp</dimen>
+    <dimen name="size_picture_card">100dp</dimen>
+</resources>

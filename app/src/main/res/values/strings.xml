@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">KavakExam</string>
+
+    <string name="button_reload">Cargar de nuevo</string>
+
+    <string name="title_error">Opps!, no hay conexión</string>
+    <string name="text_error">Para cargar la información ayudanos a revisar tu internet.</string>
+
+
 </resources>

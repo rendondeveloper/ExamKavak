@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/llInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="@dimen/size_picture_card"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/size_space_card">
+
+            <ImageView
+                android:id="@+id/ivFaceUser"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+
+        <Space
+            android:layout_width="@dimen/separation_width_data"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCoinFrom"
+                android:text="Nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/size_text"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_space_card"/>
+
+            <TextView
+                android:id="@+id/tvName"
+                tool:text="Tito bambino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textSecondary"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_text_info_user"/>
+
+           <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_space_card"/>
+
+            <TextView
+                android:text="Edad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tvAge"
+                tool:text="24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textSecondary"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_text_info_user"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_space_card"/>
+
+            <TextView
+                android:text="Profesiones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tvProfessions"
+                tool:text="albañil, herrero, brujo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textSecondary"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_text_info_user"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

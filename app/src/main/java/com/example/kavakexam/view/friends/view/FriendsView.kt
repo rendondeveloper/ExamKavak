@@ -1,15 +1,13 @@
 package com.example.kavakexam.view.friends.view
 
-import android.content.Context
 import android.os.Bundle
-import android.util.AttributeSet
 import android.view.View
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.kavakexam.R
 import com.example.kavakexam.dagger.App
-import com.example.kavakexam.dto.friends.adapter.friends.AdapterFriends
+import com.example.kavakexam.dto.friends.adapter.AdapterFriends
 import com.example.kavakexam.dto.friends.behavior.Friends
 import com.example.kavakexam.dto.friends.pojo.FriendsItem
 import kotlinx.android.synthetic.main.activity_friends.*
